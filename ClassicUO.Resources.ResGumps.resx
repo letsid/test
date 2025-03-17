@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ManaCost0MinSkill1" xml:space="preserve"><value>Mana cost: {0}
+Min. Skill: {1}</value></data>
+  <data name="UseLargeContainersGump" xml:space="preserve"><value>Use large containers gump</value></data>
+  <data name="Stamina" xml:space="preserve"><value>Ausdauer</value></data>
+  <data name="BackpackStyle" xml:space="preserve"><value>Select Character Backpack Style</value></data>
+  <data name="ShowGroupHealthbar" xml:space="preserve"><value>Zeige Gruppenlebensleiste</value></data>
+  <data name="SetsLightLevelToMax" xml:space="preserve"><value>Sets light level to max but still renders lights</value></data>
+  <data name="MapMarkerOptions" xml:space="preserve"><value>Map Marker Options</value></data>
+  <data name="ShowTargetFrame" xml:space="preserve"><value>Zeige Zielrahmen</value></data>
+  <data name="AdditionalJournalDictName" xml:space="preserve"><value>Charaktername</value></data>
+  <data name="CorpseOpenOptions" xml:space="preserve"><value>Beuteoptionen</value></data>
+  <data name="GamePlayWindowSize" xml:space="preserve"><value>Spielfenstergröße:</value></data>
+  <data name="HitChanceIncrease" xml:space="preserve"><value>Hit Chance Increase</value></data>
+  <data name="MurdererColor" xml:space="preserve"><value>Feindselige-NPC's Farbe</value></data>
+  <data name="UseShiftEnterToSendMessage" xml:space="preserve"><value>Shift+Enter um Nachrichten abzusenden ohne Schließen des Chatfensters</value></data>
+  <data name="PartyName0Text1" xml:space="preserve"><value>[Party][{0}]: {1}</value></data>
+  <data name="NamesHealthbars" xml:space="preserve"><value>Namen &amp; Lebensleisten</value></data>
+  <data name="Brighlight" xml:space="preserve"><value>- Brighlight:</value></data>
+  <data name="HighlightObjects" xml:space="preserve"><value>Markierte Felder/Objekte hervorheben</value></data>
+  <data name="CloseHPGumpWhen" xml:space="preserve"><value>Schließe Lebensleiste wenn:</value></data>
+  <data name="ThereIsNoOneInThatPartySlot" xml:space="preserve"><value>There is no one in that party slot.</value></data>
+  <data name="EyedropperTool" xml:space="preserve"><value>Eyedropper Tool</value></data>
+  <data name="NextPage" xml:space="preserve"><value>Nächste Seite</value></data>
+  <data name="HPFields_Static" xml:space="preserve"><value>Statische Felder</value></data>
+  <data name="ShowYouSeeEntriesNeutral" xml:space="preserve"><value>Zeige neutrale NPC's</value></data>
+  <data name="CustomColorAuraForPartyMembers" xml:space="preserve"><value>Sonderfarbe für Partymitglieder</value></data>
+  <data name="ResetGroups" xml:space="preserve"><value>Reset groups</value></data>
+  <data name="MarkCaveTiles" xml:space="preserve"><value>Markiere Minen/Höhlenboden/Wasserfelder (erfordert Neustart)</value></data>
+  <data name="Whisper" xml:space="preserve"><value>[Flüstern]:</value></data>
+  <data name="HideRoofTiles" xml:space="preserve"><value>Hide roof tiles</value></data>
+  <data name="SecondaryAbilityIcon" xml:space="preserve"><value>Secondary Ability Icon</value></data>
+  <data name="BlackWhiteModeForDeadPlayer" xml:space="preserve"><value>Black &amp; White mode for dead player</value></data>
+  <data name="SelectWhichShardToPlayOn" xml:space="preserve"><value>Spiele auf Alathair:</value></data>
+  <data name="CounterLayout" xml:space="preserve"><value>Zählerlayout:</value></data>
+  <data name="AddMarkerOnPlayer" xml:space="preserve"><value>Marker auf Spieler hinzufügen</value></data>
+  <data name="InnocentColor" xml:space="preserve"><value>Freundliche-NPC's Farbe</value></data>
+  <data name="Containers" xml:space="preserve"><value>Behälter</value></data>
+  <data name="GridLoot_GridOnly" xml:space="preserve"><value>Nur Grid loot</value></data>
+  <data name="DelayBeforeDisplay" xml:space="preserve"><value>Delay before display:</value></data>
+  <data name="RaiseRoofPlacementLevel" xml:space="preserve"><value>Raise Roof Placement Level</value></data>
+  <data name="NetStats" xml:space="preserve"><value>Ping</value></data>
+  <data name="AuraUnderFeet" xml:space="preserve"><value>Aura unter den Füßen</value></data>
+  <data name="Accept" xml:space="preserve"><value>Annehmen</value></data>
+  <data name="Author" xml:space="preserve"><value>Autor</value></data>
+  <data name="Female" xml:space="preserve"><value>F</value></data>
+  <data name="PoisonedColor" xml:space="preserve"><value>Vergiftet Farbe</value></data>
+  <data name="TextColor" xml:space="preserve"><value>Textfarbe</value></data>
+  <data name="Floors" xml:space="preserve"><value>Floors</value></data>
+  <data name="Static0Height1Flags2Alpha3" xml:space="preserve"><value>Static (0x{0:X4})  height: {1}  flags: {2}  Alpha: {3}</value></data>
+  <data name="CircleTransType_Full" xml:space="preserve"><value>Voll</value></data>
+  <data name="CellSize" xml:space="preserve"><value>Cell size:</value></data>
+  <data name="FilterTypeFormatON" xml:space="preserve"><value>{0} [{1}]</value></data>
+  <data name="Damage" xml:space="preserve"><value>Schaden</value></data>
+  <data name="Delete" xml:space="preserve"><value>Löschen</value></data>
+  <data name="NewMacro" xml:space="preserve"><value>Neues Makro</value></data>
+  <data name="NewGroup" xml:space="preserve"><value>Neue Gruppe</value></data>
+  <data name="IgnoreAllianceMessages" xml:space="preserve"><value>Hide alliance chat</value></data>
+  <data name="HeartbeatThreshhold" xml:space="preserve"><value>Prozentwert zum Erkennen niedriger Gesundheit</value></data>
+  <data name="CUOVersion0" xml:space="preserve"><value>ClassicUO Version {0}</value></data>
+  <data name="Macros" xml:space="preserve"><value>Makros</value></data>
+  <data name="ShopGumpSize" xml:space="preserve"><value>Shop Gump Size (multiple of 60):</value></data>
+  <data name="FontStyle" xml:space="preserve"><value>Font Style</value></data>
+  <data name="BackpackStyle_GhoulSkin" xml:space="preserve"><value>Ghulhaut</value></data>
+  <data name="AutoOpenDoors" xml:space="preserve"><value>Türen automatisch öffnen</value></data>
+  <data name="CanAttackColor" xml:space="preserve"><value>Neutrale NPC's Farbe</value></data>
+  <data name="Backup" xml:space="preserve"><value>Backup</value></data>
+  <data name="PoisonResistance" xml:space="preserve"><value>Giftresistenz</value></data>
+  <data name="Dexterity" xml:space="preserve"><value>Geschicklichkeit</value></data>
+  <data name="LoginMusic" xml:space="preserve"><value>Login Musik</value></data>
+  <data name="Commit" xml:space="preserve"><value>Commit</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Abbruch</value></data>
+  <data name="SmoothBoat" xml:space="preserve"><value>Flüssigere Bewegung von Multis</value></data>
+  <data name="Create" xml:space="preserve"><value>Erstellen</value></data>
+  <data name="ScaleItemsInsideContainers" xml:space="preserve"><value>Gegenstände in Behältern skalieren</value></data>
+  <data name="HideChatGradient" xml:space="preserve"><value>Blende Textzeilenhintergrund aus</value></data>
+  <data name="SendThePartyAMessage" xml:space="preserve"><value>Sende die Partynachricht</value></data>
+  <data name="TopBarGumpAlreadyExists" xml:space="preserve"><value>TopBarGump already exists!!</value></data>
+  <data name="SwingSpeedIncrease" xml:space="preserve"><value>Swing Speed Increase</value></data>
+  <data name="CreateMarker" xml:space="preserve"><value>Erstellen</value></data>
+  <data name="Intelligence" xml:space="preserve"><value>Intelligenz</value></data>
+  <data name="FilterType" xml:space="preserve"><value>Filter type [TEST]:</value></data>
+  <data name="SaveJournalToFileInGameFolder" xml:space="preserve"><value>Speichere Journal im Spielverzeichnis</value></data>
+  <data name="MacroName" xml:space="preserve"><value>Makrobezeichnung:</value></data>
+  <data name="NoName" xml:space="preserve"><value>Kein Name</value></data>
+  <data name="PartyMessageColor" xml:space="preserve"><value>Partynachrichtenfarbe</value></data>
+  <data name="TooltipFontSelect" xml:space="preserve"><value>Tooltip font!</value></data>
+  <data name="TextAlphaFading" xml:space="preserve"><value>Weiches einblenden von Texten</value></data>
+  <data name="DragSelectAnchoredHB" xml:space="preserve"><value>Verankerte Lebensleisten</value></data>
+  <data name="QueryAttack" xml:space="preserve"><value>Query vor dem Angreifen</value></data>
+  <data name="ShowGumpPartyInv" xml:space="preserve"><value>PopUp bei Gruppeneinladung</value></data>
+  <data name="BackpackStyle_Default" xml:space="preserve"><value>Default</value></data>
+  <data name="TimeLeft" xml:space="preserve"><value>{0}
+Dauer: {1:00}:{2:00}:{3:00}</value></data>
+  <data name="DragHumanoidsOnly" xml:space="preserve"><value>Nur Humanoide auswählen</value></data>
+  <data name="HPType_MobileDead" xml:space="preserve"><value>Mobile ist tot</value></data>
+  <data name="MobilesAndCorpsesOnly" xml:space="preserve"><value>Nur Mobiles und Leichen</value></data>
+  <data name="General" xml:space="preserve"><value>Allgemein</value></data>
+  <data name="Activated" xml:space="preserve"><value>Aktiviert</value></data>
+  <data name="Abilities" xml:space="preserve"><value>Fähigkeiten</value></data>
+  <data name="DarkMode" xml:space="preserve"><value>Dark mode</value></data>
+  <data name="TerrainShadowsLevel" xml:space="preserve"><value>Tiefe der Geländeschattierungen:</value></data>
+  <data name="GamePlayWindowPosition" xml:space="preserve"><value>Spielfensterposition:</value></data>
+  <data name="P0HasInvitedYouToParty" xml:space="preserve"><value>{0} hat dich zu einer Party eingeladen</value></data>
+  <data name="IgnoreListManager" xml:space="preserve"><value>Ignore List</value></data>
+  <data name="Span0Hours" xml:space="preserve"><value>+{0}std</value></data>
+  <data name="OutOfRange" xml:space="preserve"><value>&lt;out of range&gt;</value></data>
+  <data name="EnableAbbreviatedAmountCountrs" xml:space="preserve"><value>Verkürzte Anzeige wenn Anzahl größergleich als</value></data>
+  <data name="FasterCastRecovery" xml:space="preserve"><value>Faster Cast Recovery</value></data>
+  <data name="WorldMapMarkersLoaded0" xml:space="preserve"><value>WorldMap markers loaded ({0})</value></data>
+  <data name="MacroDeleteConfirmation" xml:space="preserve"><value>Willst du das
+loeschen?</value></data>
+  <data name="InvalidLocation" xml:space="preserve"><value>Invalid location entered: Enter "X Y" or "0°0'N,0°0'W"</value></data>
+  <data name="IgnoreGuildMessages" xml:space="preserve"><value>Hide guild chat</value></data>
+  <data name="SaveExistingChanges" xml:space="preserve"><value>Save existing changes and finalize design.</value></data>
+  <data name="GuildName0Text1" xml:space="preserve"><value>[Gilde][{0}]: {1}</value></data>
+  <data name="SpellOverheadFormat" xml:space="preserve"><value>Spell Overhead format: ({power} for powerword - {spell} for spell name)</value></data>
+  <data name="UseAdditionalButtonsToActivateChat" xml:space="preserve"><value>Zusatztasten um Chat zu aktivieren: ! ; : / \\ , . [ | -</value></data>
+  <data name="HighlightParalyzed" xml:space="preserve"><value>Highlight Paralyze</value></data>
+  <data name="TargetContainerToGrabItemsInto" xml:space="preserve"><value>Target the container to Grab items into.</value></data>
+  <data name="DateTime" xml:space="preserve"><value>Datum/Zeit</value></data>
+  <data name="Shadows" xml:space="preserve"><value>Schatten</value></data>
+  <data name="Revert" xml:space="preserve"><value>Revert</value></data>
+  <data name="TreesStumps" xml:space="preserve"><value>Trees to stumps</value></data>
+  <data name="Remove" xml:space="preserve"><value>Entfernen</value></data>
+  <data name="YellColor" xml:space="preserve"><value>Schreifarbe</value></data>
+  <data name="Followers" xml:space="preserve"><value>Begleiter</value></data>
+  <data name="ChatPosition" xml:space="preserve"><value>Chatposition: </value></data>
+  <data name="HighlightRedWhenBelow" xml:space="preserve"><value>Rot aufleuchten, wenn Anzahl geringer als</value></data>
+  <data name="AuraOnMouseTarget" xml:space="preserve"><value>Aura bei Maustarget</value></data>
+  <data name="Minimize" xml:space="preserve"><value>Minimieren</value></data>
+  <data name="Stairs" xml:space="preserve"><value>Treppen</value></data>
+  <data name="Style0" xml:space="preserve"><value>Style {0}</value></data>
+  <data name="Speech" xml:space="preserve"><value>Sprache</value></data>
+  <data name="Alliance" xml:space="preserve"><value>[Alliance]: </value></data>
+  <data name="MobilesOnly" xml:space="preserve"><value>Nur Mobiles</value></data>
+  <data name="SortBy" xml:space="preserve"><value>Sortieren nach:</value></data>
+  <data name="Sounds" xml:space="preserve"><value>Geräusche</value></data>
+  <data name="ShowHP" xml:space="preserve"><value>Zeige LP</value></data>
+  <data name="RelativeDragAndDropContainers" xml:space="preserve"><value>Relatives Drag 'n' Drop für Items in Behaeltern</value></data>
+  <data name="OpenMacroSettings" xml:space="preserve"><value>Öffne Makroeinstellungen</value></data>
+  <data name="CorpseOpt_None" xml:space="preserve"><value>Keine</value></data>
+  <data name="CorpseOpt_Both" xml:space="preserve"><value>Beide</value></data>
+  <data name="HPFields_Normal" xml:space="preserve"><value>Normale Felder</value></data>
+  <data name="SpellFormat_Default" xml:space="preserve"><value>{power} [{spell}]</value></data>
+  <data name="Upkeep0Mana1MinSkill2" xml:space="preserve"><value>Upkeep Cost: {0}
+Mana cost: {0}
+Min. Skill: {0}</value></data>
+  <data name="HarmfulSpellHue" xml:space="preserve"><value>Harmful Spell Hue</value></data>
+  <data name="TooltipFontHue" xml:space="preserve"><value>Tooltip font hue</value></data>
+  <data name="HeartbeatSound" xml:space="preserve"><value>Herzgeräusche bei niedriger Gesundheit</value></data>
+  <data name="MarkersManager" xml:space="preserve"><value>Markers Manager</value></data>
+  <data name="AltCloseGumps" xml:space="preserve"><value>ALT + Rechtsklick um gruppierte Gumps zu schließen</value></data>
+  <data name="Unicode" xml:space="preserve"><value>Unicode</value></data>
+  <data name="Land0Flags1" xml:space="preserve"><value>Land (0x{0:X4})  flags: {1}</value></data>
+  <data name="AllianceMessageColor" xml:space="preserve"><value>Alliance Message Color</value></data>
+  <data name="IndexOutOfbounds" xml:space="preserve"><value>Index outbounds when parsing counter bar items</value></data>
+  <data name="PartyManifest" xml:space="preserve"><value>Gruppe</value></data>
+  <data name="KeyMod_Shift" xml:space="preserve"><value>Shift</value></data>
+  <data name="Strength" xml:space="preserve"><value>Stärke</value></data>
+  <data name="LoadingWorldMapMarkers" xml:space="preserve"><value>Loading WorldMap markers..</value></data>
+  <data name="ItemsOnly" xml:space="preserve"><value>Nur Gegenstände</value></data>
+  <data name="ShowYourName" xml:space="preserve"><value>Zeige deinen Namen</value></data>
+  <data name="ShowRangeIndicator" xml:space="preserve"><value>Reichweitenindikator anzeigen</value></data>
+  <data name="EnableFastSpellsAssign" xml:space="preserve"><value>Enable Fast Spells Assign (Ctrl + Alt)</value></data>
+  <data name="ColdResistance" xml:space="preserve"><value>Magieresistenz</value></data>
+  <data name="AddMarker" xml:space="preserve"><value>Marker hinzufügen</value></data>
+  <data name="EnterMarkerName" xml:space="preserve"><value>Marker Name</value></data>
+  <data name="Journal" xml:space="preserve"><value>Journal</value></data>
+  <data name="Command" xml:space="preserve"><value>[Command]: </value></data>
+  <data name="AlwaysRunHidden" xml:space="preserve"><value>Außer versteckt</value></data>
+  <data name="ContLoc_TopRight" xml:space="preserve"><value>Oben rechts</value></data>
+  <data name="ContainerScale" xml:space="preserve"><value>- Behälterskalierung</value></data>
+  <data name="ShowMarkerIcons" xml:space="preserve"><value>Show marker icons</value></data>
+  <data name="ShowMarkerNames" xml:space="preserve"><value>Show marker names</value></data>
+  <data name="Password" xml:space="preserve"><value>Passwort</value></data>
+  <data name="PreventAltF4ToCloseClient" xml:space="preserve"><value>ALT + F4 zum Schließen des Clients deaktivieren</value></data>
+  <data name="Tooltip" xml:space="preserve"><value>Tooltip</value></data>
+  <data name="TopMost" xml:space="preserve"><value>Keep map on top</value></data>
+  <data name="DisableMessageHistory" xml:space="preserve"><value>Deaktiviere Strg + Q/W (Nachrichtenhistorie)</value></data>
+  <data name="AlwaysUseFullsizeGameWindow" xml:space="preserve"><value>Immer gesamte Bildschirmgröße verwenden</value></data>
+  <data name="HPType_MobileOOR" xml:space="preserve"><value>Mobile ausser Reichweite</value></data>
+  <data name="HighlightInvulnerable" xml:space="preserve"><value>Highlight unverwundbar</value></data>
+  <data name="AddNewMember" xml:space="preserve"><value>Neues Mitglied hinzufuegen</value></data>
+  <data name="ShowTarRangeIndic" xml:space="preserve"><value>Entfernungsindikator am Zielcursor</value></data>
+  <data name="AuraType_Warmode" xml:space="preserve"><value>Kriegsmodus</value></data>
+  <data name="GumpsAndContext" xml:space="preserve"><value>Gumps und Kontext</value></data>
+  <data name="WhisperColor" xml:space="preserve"><value>Flüsterfarbe</value></data>
+  <data name="UseColoredLights" xml:space="preserve"><value>Use colored lights</value></data>
+  <data name="EnableCounters" xml:space="preserve"><value>Aktiviere Zähler</value></data>
+  <data name="ShowYourCoordinates" xml:space="preserve"><value>Zeige deine Koordinaten</value></data>
+  <data name="OutOfRangeColor" xml:space="preserve"><value>Keine Farbe für Ziele außer Reichweite</value></data>
+  <data name="ShowBuffDuration" xml:space="preserve"><value>Zeige Buffdauer</value></data>
+  <data name="YouMustHaveThreeUniqueSkillsChosen" xml:space="preserve"><value>You must have three unique skills chosen!</value></data>
+  <data name="Passive" xml:space="preserve"><value>Passiv</value></data>
+  <data name="SmoothDoors" xml:space="preserve"><value>Flüssige Türen</value></data>
+  <data name="EmoteColor" xml:space="preserve"><value>Emotefarbe</value></data>
+  <data name="PartyCanLootMe" xml:space="preserve"><value>Party kann mich pluendern</value></data>
+  <data name="HPShow_Less" xml:space="preserve"><value>&lt; 100 %</value></data>
+  <data name="AddToIgnoreListSuccess" xml:space="preserve"><value>Added {0} to ignore list.</value></data>
+  <data name="HighlightOnUse" xml:space="preserve"><value>Highlight bei Benutzung</value></data>
+  <data name="ShowHousesContent" xml:space="preserve"><value>Show houses content</value></data>
+  <data name="ContLoc_RememberEveryContainer" xml:space="preserve"><value>Speichere jeden Behaelter</value></data>
+  <data name="ChatMessageColor" xml:space="preserve"><value>Chatnachrichtenfarbe</value></data>
+  <data name="PlayFootsteps" xml:space="preserve"><value>Schrittgeräusche</value></data>
+  <data name="Decline" xml:space="preserve"><value>Ablehnen</value></data>
+  <data name="MarkerColor" xml:space="preserve"><value>Farbe</value></data>
+  <data name="DisbandTheParty" xml:space="preserve"><value>Party aufloesen</value></data>
+  <data name="LowerReagentCost" xml:space="preserve"><value>Lower Reagent Cost</value></data>
+  <data name="WeaponDamageIncrease" xml:space="preserve"><value>Weapon Damage Increase</value></data>
+  <data name="GlobalChat" xml:space="preserve"><value>Global Chat</value></data>
+  <data name="Localisation" xml:space="preserve"><value>Localisation</value></data>
+  <data name="TextOverheadType0Hue1" xml:space="preserve"><value>TextOverhead type: {0}  hue: 0x{1:X4}</value></data>
+  <data name="ShowAllMarkers" xml:space="preserve"><value>Show all markers</value></data>
+  <data name="Experimental" xml:space="preserve"><value>Hotkeys</value></data>
+  <data name="HPType_None" xml:space="preserve"><value>Keine</value></data>
+  <data name="PreviousPage" xml:space="preserve"><value>Vorherige Seite</value></data>
+  <data name="MarkerSearch" xml:space="preserve"><value>Suche::</value></data>
+  <data name="ImpossibleToDefineTheClientVersion0" xml:space="preserve"><value>Impossible to define the client version.
+Client version: '{0}'</value></data>
+  <data name="RevertYourDesign" xml:space="preserve"><value>Revert your design in progress to match your currently visible, finalized design.</value></data>
+  <data name="ShiftContext" xml:space="preserve"><value>Kein Kontextmenü bei einfachem Linksklick</value></data>
+  <data name="NoOneHasInvitedYouToBeInAParty" xml:space="preserve"><value>Du wurdest zu keiner Party eingeladen.</value></data>
+  <data name="LowerRoofPlacementLevel" xml:space="preserve"><value>Lower Roof Placement Level</value></data>
+  <data name="OverrideContainerGumpLocation" xml:space="preserve"><value>Überschreibe Behaelterposition</value></data>
+  <data name="UseObject" xml:space="preserve"><value>Use object (Double click)</value></data>
+  <data name="FriendColor" xml:space="preserve"><value>Freundfarbe</value></data>
+  <data name="EnableOverheadSpellHue" xml:space="preserve"><value>Enable Overhead Spell Hue</value></data>
+  <data name="EnablePathfinding" xml:space="preserve"><value>Wegfindung aktivieren</value></data>
+  <data name="ContLoc_NearContainerPosition" xml:space="preserve"><value>Nahe Behaelterposition</value></data>
+  <data name="ShiftStack" xml:space="preserve"><value>Shift um Gegenstandstacks aufzuteilen</value></data>
+  <data name="ShowStatsChangedMessage" xml:space="preserve"><value>Benachrichtigen wenn sich Stats verändern</value></data>
+  <data name="UseCustomHPBars" xml:space="preserve"><value>Modifizierte Lebensleisten</value></data>
+  <data name="ReleasingCtrlRestoresScale" xml:space="preserve"><value>Standard-Zoom beim Loslassen von STRG wiederherstellen</value></data>
+  <data name="By" xml:space="preserve"><value>by</value></data>
+  <data name="ON" xml:space="preserve"><value>AN</value></data>
+  <data name="RE" xml:space="preserve"><value>RE: </value></data>
+  <data name="FPSInactive" xml:space="preserve"><value>FPS reduzieren wenn Fenster nicht fokussiert</value></data>
+  <data name="SpeechFont" xml:space="preserve"><value>Sprach Font:</value></data>
+  <data name="ShowGroupName" xml:space="preserve"><value>Zeige Gruppenname</value></data>
+  <data name="ShowYouSeeEntriesItems" xml:space="preserve"><value>Zeige Itemnamen</value></data>
+  <data name="DoubleClickLootContainers" xml:space="preserve"><value>Doppelklick um Gegenstände in Behaelter zu plündern</value></data>
+  <data name="BeneficSpellHue" xml:space="preserve"><value>Benefic Spell Hue</value></data>
+  <data name="ShowAdditionalJournalSelf" xml:space="preserve"><value>Zeige eigenen Text im Zusatzjournal</value></data>
+  <data name="UseXBREffectBETA" xml:space="preserve"><value>Use xBR effect [BETA]</value></data>
+  <data name="GlobalChatNotImplementedYet" xml:space="preserve"><value>GlobalChat not implemented yet.</value></data>
+  <data name="AddAdditionalJournalDictSelf" xml:space="preserve"><value>Du kannst dich selbst nicht hinzufügen. Das kannst du unter 'Optionen' -&gt; 'Schriftart' einstellen</value></data>
+  <data name="HPFields_Tile" xml:space="preserve"><value>Bodenplatten</value></data>
+  <data name="UseBlackBackgr" xml:space="preserve"><value>Opaque background</value></data>
+  <data name="LeaveTheParty" xml:space="preserve"><value>Party verlassen</value></data>
+  <data name="SaveAccount" xml:space="preserve"><value>Speichere Account</value></data>
+  <data name="ShowHousesBoats" xml:space="preserve"><value>Show houses/boats</value></data>
+  <data name="HP_Percentage" xml:space="preserve"><value>Prozent</value></data>
+  <data name="FreeView" xml:space="preserve"><value>Freie Sicht</value></data>
+  <data name="TooltipZoom" xml:space="preserve"><value>Tooltip zoom:</value></data>
+  <data name="TooltipFont" xml:space="preserve"><value>Tooltip font:</value></data>
+  <data name="ReloadMarkers" xml:space="preserve"><value>Reload markers</value></data>
+  <data name="AddToIgnoreListNotMobile" xml:space="preserve"><value>Das ist kein Spieler.</value></data>
+  <data name="ShowCaps" xml:space="preserve"><value> - Zeige Caps</value></data>
+  <data name="ShowReal" xml:space="preserve"><value> - Zeige Real</value></data>
+  <data name="Add" xml:space="preserve"><value>Hinzufügen</value></data>
+  <data name="All" xml:space="preserve"><value>Alle</value></data>
+  <data name="FPS" xml:space="preserve"><value>- FPS:</value></data>
+  <data name="Dex" xml:space="preserve"><value>Dex</value></data>
+  <data name="Map" xml:space="preserve"><value>Karte</value></data>
+  <data name="Cap" xml:space="preserve"><value>Cap</value></data>
+  <data name="OFF" xml:space="preserve"><value>AUS</value></data>
+  <data name="Sex" xml:space="preserve"><value>Sex</value></data>
+  <data name="NoteToSelf0" xml:space="preserve"><value>Notiz an mich: {0}</value></data>
+  <data name="Emote" xml:space="preserve"><value>[Emote]: </value></data>
+  <data name="Erase" xml:space="preserve"><value>Erase</value></data>
+  <data name="SpellDamageIncrease" xml:space="preserve"><value>Spell Damage Increase</value></data>
+  <data name="Armor" xml:space="preserve"><value>Rüstung</value></data>
+  <data name="Fonts" xml:space="preserve"><value>Schriftart</value></data>
+  <data name="ASCII" xml:space="preserve"><value>ASCII</value></data>
+  <data name="TellEmpty" xml:space="preserve"><value>[Tell] []: </value></data>
+  <data name="Guild" xml:space="preserve"><value>[Gilde]:</value></data>
+  <data name="Debug" xml:space="preserve"><value>FPS</value></data>
+  <data name="Doors" xml:space="preserve"><value>Türen</value></data>
+  <data name="Music" xml:space="preserve"><value>Musik</value></data>
+  <data name="Buffs" xml:space="preserve"><value>Buffs</value></data>
+  <data name="Color" xml:space="preserve"><value>Farbe</value></data>
+  <data name="Clear" xml:space="preserve"><value>Klar</value></data>
+  <data name="LoginToUO" xml:space="preserve"><value>Einloggen zu Alathair..</value></data>
+  <data name="RestoreYourDesign" xml:space="preserve"><value>Restore your design in progress to a design you have previously backed up.</value></data>
+  <data name="BorderlessWindow" xml:space="preserve"><value>Rahmenloses Fenster</value></data>
+  <data name="Index" xml:space="preserve"><value>INDEX</value></data>
+  <data name="Label" xml:space="preserve"><value>Label</value></data>
+  <data name="Leave" xml:space="preserve"><value>Verlassen</value></data>
+  <data name="Video" xml:space="preserve"><value>Video</value></data>
+  <data name="Walls" xml:space="preserve"><value>Wände</value></data>
+  <data name="Tell0" xml:space="preserve"><value>[Tell] [{0}]: </value></data>
+  <data name="Title" xml:space="preserve"><value>Titel:</value></data>
+  <data name="Total" xml:space="preserve"><value>Total: </value></data>
+  <data name="Roofs" xml:space="preserve"><value>Roofs</value></data>
+  <data name="Staff" xml:space="preserve"><value>[Staff]:</value></data>
+  <data name="Sound" xml:space="preserve"><value>Sound</value></data>
+  <data name="Party" xml:space="preserve"><value>[Party]: </value></data>
+  <data name="YouAreNotInAParty" xml:space="preserve"><value>Du bist in keiner Party</value></data>
+  <data name="MarkerDefName" xml:space="preserve"><value>MarkerName</value></data>
+  <data name="HideVegetation" xml:space="preserve"><value>Hide vegetation</value></data>
+  <data name="EnableDeathScreen" xml:space="preserve"><value>Aktiviere Deathscreen</value></data>
+  <data name="SystemMenu" xml:space="preserve"><value>Systemmenü</value></data>
+  <data name="NeutralSpellHue" xml:space="preserve"><value>Neutral Spell Hue</value></data>
+  <data name="Selected0" xml:space="preserve"><value>- Selected: {0}</value></data>
+  <data name="LinearClamp" xml:space="preserve"><value>Linear Clamp</value></data>
+  <data name="AddItem" xml:space="preserve"><value>+ Füge Gegenstand hinzu</value></data>
+  <data name="CombatSpells" xml:space="preserve"><value>Kampf und Zauber</value></data>
+  <data name="Account" xml:space="preserve"><value>Accoutname</value></data>
+  <data name="PhysicalResistance" xml:space="preserve"><value>AR</value></data>
+  <data name="DragKey" xml:space="preserve"><value>Modifikatortaste für Auswahlrahmen</value></data>
+  <data name="KeyMod_None" xml:space="preserve"><value>Keine</value></data>
+  <data name="KeyMod_Ctrl" xml:space="preserve"><value>Strg</value></data>
+  <data name="HighlightObjectsColor" xml:space="preserve"><value>Farbe für markierte Felder/Objekte</value></data>
+  <data name="AltMoveGumps" xml:space="preserve"><value>ALT Halten um Gumps zu verschieben</value></data>
+  <data name="MaxStats" xml:space="preserve"><value>Max Stats</value></data>
+  <data name="ThatSClassicUO" xml:space="preserve"><value>That's ClassicUO!</value></data>
+  <data name="SpeechColor" xml:space="preserve"><value>Sprachfarbe</value></data>
+  <data name="AddToAdditionalJournalDictNotMobile" xml:space="preserve"><value>Das ist Spielcharakter.</value></data>
+  <data name="NoMapFiles" xml:space="preserve"><value>No map files</value></data>
+  <data name="CircleTransType_Gradient" xml:space="preserve"><value>Gradient</value></data>
+  <data name="ContLoc_LastDraggedPosition" xml:space="preserve"><value>Letzte Position</value></data>
+  <data name="ThisKeyCombinationAlreadyExists" xml:space="preserve"><value>Diese Kombination
+ist bereits vergeben. Kombination genutzt von: {0}</value></data>
+  <data name="AddToIgnoreListExist" xml:space="preserve"><value>Character {0} already exist in a list.</value></data>
+  <data name="RebuildContainers" xml:space="preserve"><value>Rebuild containers.txt</value></data>
+  <data name="CorpseOpt_NotTar" xml:space="preserve"><value>Nicht anivisierte</value></data>
+  <data name="CorpseOpt_NotHid" xml:space="preserve"><value>Nicht versteckte</value></data>
+  <data name="SaveHPBarsOnLogout" xml:space="preserve"><value>Speichere Lebensleisten beim Ausloggen</value></data>
+  <data name="EnableOverheadSpellFormat" xml:space="preserve"><value>Enable Overhead Spell Format</value></data>
+  <data name="UseTooltip" xml:space="preserve"><value>Tooltips benutzen</value></data>
+  <data name="UOStore" xml:space="preserve"><value>UOStore</value></data>
+  <data name="PartyAuraColor" xml:space="preserve"><value>Partyaura Farbe</value></data>
+  <data name="AlwaysWalk" xml:space="preserve"><value>Immer gehen</value></data>
+  <data name="ReproduceSoundsAndMusic" xml:space="preserve"><value>Sound auch bei minimiertem UO abspielen</value></data>
+  <data name="Reagents" xml:space="preserve"><value>Reagents:</value></data>
+  <data name="AddToAdditionalJournalDictSuccess" xml:space="preserve"><value>{0} hinzugefügt.</value></data>
+  <data name="KeyCombinationAlreadyExists" xml:space="preserve"><value>Tastenkombination existiert bereits</value></data>
+  <data name="BookPage0TooManyLines1Lost" xml:space="preserve"><value>Book page {0} split into too many lines: {1} Additional lines will be lost</value></data>
+  <data name="WindowToggle" xml:space="preserve"><value>Fenster Aus/An</value></data>
+  <data name="AlwaysRun" xml:space="preserve"><value>Immer rennen</value></data>
+  <data name="TooltipBackgroundOpacity" xml:space="preserve"><value>Tooltip background opacity:</value></data>
+  <data name="PartyCannotLootMe" xml:space="preserve"><value>Party kann mich NICHT pluendern</value></data>
+  <data name="CombatMusic" xml:space="preserve"><value>Kampfmusik</value></data>
+  <data name="Counter_Rows" xml:space="preserve"><value>Reihen:</value></data>
+  <data name="AutoAcceptInvitesOfGuildMembers" xml:space="preserve"><value>Partyeinladung von Verbündeten automatisch annehmen</value></data>
+  <data name="HitPoints" xml:space="preserve"><value>HP</value></data>
+  <data name="ShowChatActivity" xml:space="preserve"><value>Texteingabeaktivitäten anzeigen (...)</value></data>
+  <data name="ActiveChatWhenPressingEnter" xml:space="preserve"><value>Chat aktivieren per ENTER-Taste</value></data>
+  <data name="EditMarker" xml:space="preserve"><value>Edit Marker</value></data>
+  <data name="Autologin" xml:space="preserve"><value>Automatisch Einloggen</value></data>
+  <data name="YourCurrentChannel" xml:space="preserve"><value>Your current channel:</value></data>
+  <data name="ClickCloseAllGumps" xml:space="preserve"><value>Schließe alle gruppierten Gumps bei Rechtsklick auf die Gruppe</value></data>
+  <data name="CastSpellsByOneClick" xml:space="preserve"><value>Cast spells by one click</value></data>
+  <data name="RunMouseInASeparateThread" xml:space="preserve"><value>Maus in separatem Thread ablaufen lassen</value></data>
+  <data name="TithingPointsAvailable" xml:space="preserve"><value>Tithing points
+Available: </value></data>
+  <data name="ShadowStatics" xml:space="preserve"><value>Baum- und Steinschatten</value></data>
+  <data name="BackpackStyle_PolarBear" xml:space="preserve"><value>Eisbär</value></data>
+  <data name="LockGameWindowMovingResizing" xml:space="preserve"><value>Deaktiviere Verschiebung und Größenänderung</value></data>
+  <data name="YouAreNotPartyLeader" xml:space="preserve"><value>Du bist nicht der Partyleiter</value></data>
+  <data name="CreateMacroButton" xml:space="preserve"><value>+ Erstelle Makro Knopf</value></data>
+  <data name="ChooseName" xml:space="preserve"><value>You are about to choose your name for the Ultima Online chat system. This name will be PERMANENT and unique on this shard. It will apply to all characters using this account. Do not use your Ultima Online account name for this name as the name you choose will be public. Enter your chat name here:</value></data>
+  <data name="ChatActivitySize" xml:space="preserve"><value>Größe der Punkte</value></data>
+  <data name="ShowIncCorpses" xml:space="preserve"><value>Zeige neue Leichen</value></data>
+  <data name="QueryBeneficialActs" xml:space="preserve"><value>Query vor dem Unterstützen von
+Murderers, Criminals, Grays (Monsters/Animals)</value></data>
+  <data name="Paperdoll" xml:space="preserve"><value>Schneiderpuppe</value></data>
+  <data name="ToggleSystemMessages" xml:space="preserve"><value>Systemnachrichten im Spielfenster anzeigen</value></data>
+  <data name="ChangingLanguageNeedsRestartToTakeEffect" xml:space="preserve"><value>Changing language needs restart to take effect</value></data>
+  <data name="ShowYouSeeEntriesHostile" xml:space="preserve"><value>Zeige nahende NPC-Gegner</value></data>
+  <data name="DragSelectStartingPosY" xml:space="preserve"><value>Startposition Lebensleisten Y</value></data>
+  <data name="DragSelectStartingPosX" xml:space="preserve"><value>Startposition Lebensleisten X</value></data>
+  <data name="ColoredBars" xml:space="preserve"><value>Farbige Aussenlinien</value></data>
+  <data name="MarkerGoTo" xml:space="preserve"><value>GoTo</value></data>
+  <data name="MarkerName" xml:space="preserve"><value>Name</value></data>
+  <data name="MarkerIcon" xml:space="preserve"><value>Icon</value></data>
+  <data name="FireResistance" xml:space="preserve"><value>Feuerresistenz</value></data>
+  <data name="SetLootBag" xml:space="preserve"><value>Set loot bag</value></data>
+  <data name="ShowAdditionalJournalSystemMessages" xml:space="preserve"><value>Zeige Systemnachrichten im Zusatzjournal</value></data>
+  <data name="Mobiles" xml:space="preserve"><value>Kreatur-, Tier- und Spieleranimationen</value></data>
+  <data name="TargetOverheadMessage" xml:space="preserve"><value>Zeige Zielbenachrichtigung bei Angriff</value></data>
+  <data name="DarkNights" xml:space="preserve"><value>Dunkle Nächte</value></data>
+  <data name="GuildMessageColor" xml:space="preserve"><value>Guild Message Color</value></data>
+  <data name="ShowYouSeeEntriesPlayer" xml:space="preserve"><value>Zeige nahende Spielernamen</value></data>
+  <data name="ClearAllChanges" xml:space="preserve"><value>Clear all changes, returning your design in progress to a blank foundation.</value></data>
+  <data name="Counter_Columns" xml:space="preserve"><value>Spalten:</value></data>
+  <data name="DisableMenu" xml:space="preserve"><value>Deaktiviere Menüleiste</value></data>
+  <data name="GameEffect" xml:space="preserve"><value>GameEffect</value></data>
+  <data name="UseOldStatusGump" xml:space="preserve"><value>Use old status gump</value></data>
+  <data name="DisableArrowsPlayerMovement" xml:space="preserve"><value>Deaktiviere Pfeile &amp; Numlock Pfeile</value></data>
+  <data name="ShowJournalEntryTime" xml:space="preserve"><value>Zeige Zeit im Journal an</value></data>
+  <data name="CorpseOpenRange" xml:space="preserve"><value>Reichweite für Doppelklick</value></data>
+  <data name="HPShow_Smart" xml:space="preserve"><value>Intelligent</value></data>
+  <data name="ChatButtonPushedNotImplementedYet" xml:space="preserve"><value>Chat button pushed! Not implemented yet!</value></data>
+  <data name="Item0Price1" xml:space="preserve"><value>{0} für {1} Goldstücke</value></data>
+  <data name="PermanentlyDelete0" xml:space="preserve"><value>Willst du "{0}" wirklich loeschen?</value></data>
+  <data name="GotoLocation" xml:space="preserve"><value>Gehe zu Position</value></data>
+  <data name="ResizeGameWindow" xml:space="preserve"><value>Spielfenstergröße anpassen</value></data>
+  <data name="ObjectInformation" xml:space="preserve"><value>Objektinformationen</value></data>
+  <data name="Restore" xml:space="preserve"><value>Restore</value></data>
+  <data name="Latency" xml:space="preserve"><value>Latenz:</value></data>
+  <data name="MarkerY" xml:space="preserve"><value>Y</value></data>
+  <data name="MarkerX" xml:space="preserve"><value>X</value></data>
+  <data name="Counters" xml:space="preserve"><value>Gegenstandsleiste</value></data>
+  <data name="ObjAlphaFading" xml:space="preserve"><value>Weiches einblenden von Gegenständen</value></data>
+  <data name="HideScreenshotStoredInMessage" xml:space="preserve"><value>Verstecke "Screenshot stored in" - Nachricht</value></data>
+  <data name="HighlighState" xml:space="preserve"><value>Highlight nach Status vergiftet gelbe hp, paralysiert)</value></data>
+  <data name="AdditionalJournalDictManager" xml:space="preserve"><value>Zusatzjournal Liste</value></data>
+  <data name="EnterLocation" xml:space="preserve"><value>Enter X Y location:</value></data>
+  <data name="AdditionalJournalDictAddButton" xml:space="preserve"><value>Füge Charakter zum Zusatzjournal hinzu</value></data>
+  <data name="OverrideGameFont" xml:space="preserve"><value>Überschreibe alle Spielfonts</value></data>
+  <data name="ShowIncMobiles" xml:space="preserve"><value>Zeige neue Mobiles</value></data>
+  <data name="RangeIndicatorAmount" xml:space="preserve"><value>Reichweite anzeigen bei: </value></data>
+  <data name="AuraType_CtrlShift" xml:space="preserve"><value>Ctrl+Shift</value></data>
+  <data name="InvulColor" xml:space="preserve"><value>Unverwundbarfarbe</value></data>
+  <data name="ShowBuffEndWithAlphaBlinks" xml:space="preserve"><value>Buffs blinken beim Auslaufen</value></data>
+  <data name="IgnoreListAddButton" xml:space="preserve"><value>Add person to ignore list</value></data>
+  <data name="AuraType_None" xml:space="preserve"><value>Nichts</value></data>
+  <data name="EnableCircleTrans" xml:space="preserve"><value>Unsichtbarkeitsradius aktivieren</value></data>
+  <data name="HighlightContainerWhenSelected" xml:space="preserve"><value>Highlight Behälter auf dem Boden wenn die Maus darüber ist</value></data>
+  <data name="AddToAdditionalJournalDictExist" xml:space="preserve"><value>{0} ist bereits in der Liste.</value></data>
+  <data name="InvalidMarkerName" xml:space="preserve"><value>Invalid marker name.</value></data>
+  <data name="TabCombat" xml:space="preserve"><value>TAB halten für Kriegsmodus</value></data>
+  <data name="DataHighlightType" xml:space="preserve"><value>Highlightvariante:</value></data>
+  <data name="ShowMobiles" xml:space="preserve"><value>Zeige Mobiles</value></data>
+  <data name="DisableClickAutomove" xml:space="preserve"><value>Deaktiviere Rechts+Linksklick automatisch bewegen</value></data>
+  <data name="TargetWithoutWarmode" xml:space="preserve"><value>Anvisieren bei Doppelklick ohne Kriegsmodus </value></data>
+  <data name="HP_Both" xml:space="preserve"><value>Beides</value></data>
+  <data name="HP_Line" xml:space="preserve"><value>Linie</value></data>
+  <data name="HP_Mode" xml:space="preserve"><value>Modus:</value></data>
+  <data name="WorldMapLoading" xml:space="preserve"><value>WorldMap loading...</value></data>
+  <data name="Channels" xml:space="preserve"><value>Channels</value></data>
+  <data name="EnableDragHPBars" xml:space="preserve"><value>Aktiviere das Ziehen eines Auswahlrahmens</value></data>
+  <data name="ActivateShakeEffects" xml:space="preserve"><value>Erdbebeneffekte anzeigen</value></data>
+  <data name="SallosEasyGrab" xml:space="preserve"><value>"Sallos easy grab"</value></data>
+  <data name="HPShow_Always" xml:space="preserve"><value>Immer</value></data>
+  <data name="WorldMapLoaded" xml:space="preserve"><value>WorldMap loaded!</value></data>
+  <data name="EnergyResistance" xml:space="preserve"><value>Energieresistenz</value></data>
+  <data name="ForceUnicodeInJournal" xml:space="preserve"><value>Forciere Unicode im Journal</value></data>
+  <data name="PacketLoss" xml:space="preserve"><value>Paketverlust:</value></data>
+  <data name="CircleTransType" xml:space="preserve"><value>Transparency type:</value></data>
+  <data name="LowerManaCost" xml:space="preserve"><value>Lower Mana Cost</value></data>
+  <data name="InfoBar" xml:space="preserve"><value>Infoleiste</value></data>
+  <data name="GridLoot" xml:space="preserve"><value>Grid-Loot Ansicht</value></data>
+  <data name="HighlightPoisoned" xml:space="preserve"><value>Highlight Vergiftung</value></data>
+  <data name="CreateAChannel" xml:space="preserve"><value>Create a channel:</value></data>
+  <data name="ScaleSpeechDelay" xml:space="preserve"><value>Sprachverzögerung skalieren</value></data>
+  <data name="RandomizeSpeechHues" xml:space="preserve"><value>Zufällige Hues </value></data>
+  <data name="GridLoot_None" xml:space="preserve"><value>None</value></data>
+  <data name="GridLoot_Both" xml:space="preserve"><value>Both</value></data>
+  <data name="HPFields" xml:space="preserve"><value>Bewegende Felder:</value></data>
+  <data name="SynchronizeDesignStateWithServer" xml:space="preserve"><value>Synchronize design state with server.</value></data>
+  <data name="AdditionalJournal" xml:space="preserve"><value>Zusatzjournal</value></data>
+  <data name="Store0Visibility" xml:space="preserve"><value>Story {0} Visibility</value></data>
+  <data name="BackpackStyle_Suede" xml:space="preserve"><value>Suede</value></data>
+  <data name="PrimaryAbilityIcon" xml:space="preserve"><value>Primary Ability Icon</value></data>
+  <data name="ShowSkillsChangedMessageBy" xml:space="preserve"><value>Zeige Talentänderungen ab</value></data>
+  <data name="AlternativeLights" xml:space="preserve"><value>Alternative lights</value></data>
+  <data name="EnemyColor" xml:space="preserve"><value>Gegnerfarbe</value></data>
+  <data name="GameWindow" xml:space="preserve"><value>Spielfenster</value></data>
+  <data name="SaveClose" xml:space="preserve"><value>Speichern &amp; Schließen</value></data>
+  <data name="AllianceName0Text1" xml:space="preserve"><value>[Alliance][{0}]: {1}</value></data>
+  <data name="BookPage0LineTooLong1" xml:space="preserve"><value>Book page {0} single line too LONG, total length -&gt; {1} vs MAX 79 bytes allowed, some content might get lost</value></data>
+  <data name="ParalyzedColor" xml:space="preserve"><value>Farbe Paralyse</value></data>
+  <data name="AuraType_Always" xml:space="preserve"><value>Immer</value></data>
+  <data name="WorldMap" xml:space="preserve"><value>Weltkarte</value></data>
+  <data name="NoCityFound" xml:space="preserve"><value>No city found. Something wrong with the received cities.</value></data>
+  <data name="DeleteMacro" xml:space="preserve"><value>Lösche Makro</value></data>
+  <data name="ShowYourHealthbar" xml:space="preserve"><value>Zeige deine Lebensleiste</value></data>
+  <data name="EnableMouseWheelForZoom" xml:space="preserve"><value>STRG + Mausrad für Zoom aktivieren</value></data>
+  <data name="MaximumStats" xml:space="preserve"><value>Hunger</value></data>
+  <data name="SkipEmptyCorpses" xml:space="preserve"><value>Leere Leichen überspringen</value></data>
+  <data name="IgnoreListName" xml:space="preserve"><value>Character name</value></data>
+  <data name="CriminalColor" xml:space="preserve"><value>Criminal-Flag Farbe</value></data>
+  <data name="QueryBeneficialActs_Tooltip" xml:space="preserve"><value>Query vor der Unterstützung kriminaler Aktivitäten</value></data>
+  <data name="Inventory" xml:space="preserve"><value>Inventar</value></data>
+  <data name="CorpseIsEmpty" xml:space="preserve"><value>[GridLoot]: Leiche leer!</value></data>
+  <data name="AutoOpenCorpses" xml:space="preserve"><value>Leichen automatisch doppelklicken</value></data>
+  <data name="ToCustomHouseManagerCategory" xml:space="preserve"><value>To _customHouseManager.Category</value></data>
+  <data name="DefaultZoom" xml:space="preserve"><value>Standardzoom:</value></data>
+  <data name="ShowHide0" xml:space="preserve"><value>Zeigen/Verstecken '{0}'</value></data>
+  <data name="DisableDefaultUOHotkeys" xml:space="preserve"><value>Deaktiviere Standardhotkeys</value></data>
+  <data name="ShiftPathfinding" xml:space="preserve"><value>Shift für Wegfindung</value></data>
+  <data name="StandardSkillGump" xml:space="preserve"><value>Normale Talente-Ansicht</value></data>
+  <data name="GoToStory0" xml:space="preserve"><value>Go To Story {0}</value></data>
+  <data name="Miscellaneous" xml:space="preserve"><value>Sonstiges</value></data>
+  <data name="ShowInfoBar" xml:space="preserve"><value>Zeige Informationsleiste</value></data>
+  <data name="Edit" xml:space="preserve"><value>Bearbeiten</value></data>
+  <data name="Gold" xml:space="preserve"><value>Gold</value></data>
+  <data name="Date" xml:space="preserve"><value>Datum:</value></data>
+  <data name="Data" xml:space="preserve"><value>Data</value></data>
+  <data name="Dump" xml:space="preserve"><value>Dump</value></data>
+  <data name="Male" xml:space="preserve"><value>M</value></data>
+  <data name="Base" xml:space="preserve"><value>Base</value></data>
+  <data name="Cost" xml:space="preserve"><value>Kosten</value></data>
+  <data name="Chat" xml:space="preserve"><value>Chat</value></data>
+  <data name="Info" xml:space="preserve"><value>&lt; ? &gt;</value></data>
+  <data name="Name" xml:space="preserve"><value>Name:</value></data>
+  <data name="Next" xml:space="preserve"><value>&gt;&gt;</value></data>
+  <data name="Luck" xml:space="preserve"><value>Durst</value></data>
+  <data name="Join" xml:space="preserve"><value>Beitreten</value></data>
+  <data name="UOAM" xml:space="preserve"><value>[UOAM]: </value></data>
+  <data name="Kick" xml:space="preserve"><value>Kick</value></data>
+  <data name="Help" xml:space="preserve"><value>Hilfe</value></data>
+  <data name="Tell" xml:space="preserve"><value>Tell</value></data>
+  <data name="Real" xml:space="preserve"><value>Real</value></data>
+  <data name="Sync" xml:space="preserve"><value>Sync</value></data>
+  <data name="Self" xml:space="preserve"><value>[* ICH *]</value></data>
+  <data name="Prev" xml:space="preserve"><value>&lt;&lt;</value></data>
+  <data name="Yell" xml:space="preserve"><value>[Schreien]:</value></data>
+  <data name="FasterCasting" xml:space="preserve"><value>Faster Casting</value></data>
+  <data name="ShowPartyMembers" xml:space="preserve"><value>Zeige Partymitglieder</value></data>
+  <data name="LightLevel" xml:space="preserve"><value>Light level</value></data>
+  <data name="StoreDesignInProgress" xml:space="preserve"><value>Store design in progress in a back up buffer, but do not finalize design.</value></data>
+  <data name="DisableTab" xml:space="preserve"><value>Deaktiviere TAB (Kriegsmodusschalter)</value></data>
+  <data name="DefenseChanceIncrease" xml:space="preserve"><value>Defense Chance Increase</value></data>
+  <data name="AnisotropicClamp" xml:space="preserve"><value>Anisotropic Clamp</value></data>
+  <data name="FlipMap" xml:space="preserve"><value>Flip map</value></data>
+  </root>

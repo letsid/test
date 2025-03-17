@@ -1,0 +1,28 @@
+namespace ClassicUO.IO.Resources;
+
+internal enum HTML_TAG_TYPE
+{
+	HTT_NONE,
+	HTT_B,
+	HTT_I,
+	HTT_A,
+	HTT_U,
+	HTT_P,
+	HTT_BIG,
+	HTT_SMALL,
+	HTT_BODY,
+	HTT_BASEFONT,
+	HTT_H1,
+	HTT_H2,
+	HTT_H3,
+	HTT_H4,
+	HTT_H5,
+	HTT_H6,
+	HTT_BR,
+	HTT_BQ,
+	HTT_LEFT,
+	HTT_CENTER,
+	HTT_RIGHT,
+	HTT_DIV,
+	HTT_BODYBGCOLOR
+}

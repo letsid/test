@@ -1,0 +1,13 @@
+namespace ClassicUO.Game.Managers;
+
+internal enum CUSTOM_HOUSE_GUMP_STATE
+{
+	CHGS_WALL,
+	CHGS_DOOR,
+	CHGS_FLOOR,
+	CHGS_STAIR,
+	CHGS_ROOF,
+	CHGS_MISC,
+	CHGS_MENU,
+	CHGS_FIXTURE
+}

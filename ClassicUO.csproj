@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ClassicUO</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ClassicUO.cuologo.png" />
+    <None Remove="ClassicUO.Renderer.fonts.bold_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map1_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map2_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map3_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map4_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map5_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.map6_font.xnb" />
+    <None Remove="ClassicUO.Renderer.fonts.regular_font.xnb" />
+    <None Remove="ClassicUO.shaders.IsometricWorld.fxc" />
+    <None Remove="ClassicUO.shaders.xBR.fxc" />
+    <EmbeddedResource Include="ClassicUO.cuologo.png" LogicalName="ClassicUO.cuologo.png" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.bold_font.xnb" LogicalName="ClassicUO.Renderer.fonts.bold_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map1_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map1_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map2_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map2_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map3_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map3_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map4_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map4_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map5_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map5_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.map6_font.xnb" LogicalName="ClassicUO.Renderer.fonts.map6_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.Renderer.fonts.regular_font.xnb" LogicalName="ClassicUO.Renderer.fonts.regular_font.xnb" />
+    <EmbeddedResource Include="ClassicUO.shaders.IsometricWorld.fxc" LogicalName="ClassicUO.shaders.IsometricWorld.fxc" />
+    <EmbeddedResource Include="ClassicUO.shaders.xBR.fxc" LogicalName="ClassicUO.shaders.xBR.fxc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FNA">
+      <HintPath>FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="cuoapi">
+      <HintPath>cuoapi.dll</HintPath>
+    </Reference>
+    <Reference Include="MP3Sharp">
+      <HintPath>MP3Sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

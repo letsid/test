@@ -1,0 +1,35 @@
+namespace ClassicUO.Game.Data;
+
+internal enum Layer : byte
+{
+	Invalid,
+	OneHanded,
+	TwoHanded,
+	Shoes,
+	Pants,
+	Shirt,
+	Helmet,
+	Gloves,
+	Ring,
+	Talisman,
+	Necklace,
+	Hair,
+	Waist,
+	Torso,
+	Bracelet,
+	Face,
+	Beard,
+	Tunic,
+	Earrings,
+	Arms,
+	Cloak,
+	Backpack,
+	Robe,
+	Skirt,
+	Legs,
+	Mount,
+	ShopBuyRestock,
+	ShopBuy,
+	ShopSell,
+	Bank
+}

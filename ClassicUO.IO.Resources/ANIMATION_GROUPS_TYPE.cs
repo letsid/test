@@ -1,0 +1,11 @@
+namespace ClassicUO.IO.Resources;
+
+internal enum ANIMATION_GROUPS_TYPE
+{
+	MONSTER,
+	SEA_MONSTER,
+	ANIMAL,
+	HUMAN,
+	EQUIPMENT,
+	UNKNOWN
+}
